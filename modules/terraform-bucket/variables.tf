@@ -32,3 +32,8 @@ variable "waypoint_application" {
     error_message = "waypoint_application must not contain dashes or underscores."
   }
 }
+
+variable "test_input" {
+  type        = string
+  description = "Test"
+}
